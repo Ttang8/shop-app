@@ -1,3 +1,24 @@
 // Place all the styles related to the Api::Sessions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.submitformcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25em;
+  // flex-direction: column;
+  border: 1px solid red;
+}
+
+.submitform {
+  padding: 8%;
+  border: 1px solid black;
+  border-radius: 5%;
+}
+
+.inputs {
+  border: 1px solid gray;
+  padding :5px;
+  border-radius: 10px;
+}
